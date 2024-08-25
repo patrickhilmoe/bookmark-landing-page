@@ -1,0 +1,248 @@
+nav .btn {
+  color: white;
+  background-color: hsl(0, 84%, 65%);
+  font-weight: bold;
+}
+
+.nav-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.login-btn {
+  justify-self: end;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  margin: 25px -20px;
+}
+
+nav {
+  font-weight: bold;
+  margin: 0 100px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-nav li {
+  padding: 0 20px;
+}
+
+.blue-button {
+  background-color: hsl(240, 47%, 60%);
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.light-grey-button {
+  background-color: hsl(240, 4%, 94%);
+  padding: 15px;
+  font-weight: bold;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 100px 40px 100px;
+}
+
+.hero-left {
+  padding-right: 50px;
+  align-content: center;
+}
+
+.transition {
+  display: grid;
+  grid-column: span 2;
+  text-align: center;
+  margin: 80px 0 80px 0;;
+}
+
+.features {
+  margin: 0 100px 40px 100px;
+  text-align: center;
+}
+
+.text-padding {
+  padding: 0 0 30px 0;
+}
+
+.button-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 100px;
+  padding: 0 0 50px 0;
+}
+
+.feat-button {
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 20px;
+}
+
+.feat-button:hover {
+  transition: 0.5s;
+  color: orange;
+}
+
+.feat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.feat div {
+  align-content: center;
+  text-align: left;
+  padding-right: 100px;
+  margin-left: 60px;
+}
+
+.feat p {
+  padding: 10px 0;
+}
+
+.feat button {
+  background-color: hsl(240, 47%, 60%);
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 0px;
+}
+
+.extension {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px 0 40px 0;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.extension div:nth-child(1) {
+  margin: -40px 0 40px auto;
+}
+
+.extension div:nth-child(2) {
+  margin: 0 auto;
+}
+
+.extension div:nth-child(3) {
+  margin: 40px auto -40px 0;
+}
+
+.card {
+  display: grid;
+  text-align: center;
+  justify-items: center;
+  box-shadow: 3px 3px 3px grey;
+  max-width: 250px;
+  padding: 30px 20px;
+}
+
+card img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.faq li {
+  display: grid;
+}
+
+.faq {
+  padding: 0 150px;
+  margin: 0 100px;
+}
+
+.drop-btn {
+  background: none;
+  border: none;
+  border-top: 1px solid black;
+}
+
+.faq li:nth-child(4) {
+  border-bottom: 1px solid black;
+}
+
+.drop-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.drop-select img {
+  margin-left: auto;
+
+}
+
+
+.faq-button {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.faq-moreinfo {
+  background-color: hsl(240, 47%, 60%);
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 0px;
+}
+
+.contact {
+  background-color: hsl(240, 47%, 60%);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.contact h3 {
+  padding: 30px 0;
+}
+
+.form-style {
+  color: black;
+  display: flex;
+  margin: 0 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-style input {
+  margin-right: 40px;
+}
+
+form .btn {
+  color: white;
+  background-color: hsl(0, 84%, 65%);
+  font-weight: bold;
+}
+
+.footer {
+  background-color: hsl(240, 36%, 28%);
+  padding-bottom: 40px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.footer-nav img {
+  padding: 40px 20px ;
+}
+
+.footer-icons {
+  margin-left: auto;
+}
