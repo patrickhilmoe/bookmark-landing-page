@@ -182,7 +182,7 @@ function App() {
         <nav className="footer-nav">
           <img src="../images/logo-bookmark.svg" alt="bookmark logo" />
           <div>
-            <ul className="navbar-nav">
+            <ul className="navbar-nav footer-navbar">
               <li className="nav-item">
                 <a href="#" className="nav-link active">
                   FEATURES
